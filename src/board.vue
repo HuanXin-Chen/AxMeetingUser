@@ -221,7 +221,7 @@ export default {
     showHitokoto () {
       this.showMessage('先别急哈，让我想一下呀！')
       this.http({
-        url: 'http://localhost:8080/ai/help',
+        url: 'http://8.138.84.212:8080/ai/help',
         success: ({ message }) => {
           this.showMessage(`${message}`)
         }
